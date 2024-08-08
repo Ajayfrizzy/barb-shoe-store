@@ -1,0 +1,87 @@
+.section{
+    max-width: 80vw;
+    margin: 0 auto 3rem;
+}
+
+.logo{
+    margin: 2rem 0 4rem;
+}
+
+.dfl{
+    display: flex;
+}
+
+.shoe, .rText{
+    flex: 1;
+}
+
+.shoe{
+    display: flex;
+    flex-direction: column;
+    justify-content: end;
+    padding-bottom: 1rem;
+}
+
+.bigImg{
+    width: 20rem;
+}
+
+.name, .price, .color, .img, .size, .btn{
+    display: block;
+    padding: 0.4rem 0;
+    font-size: 1.2rem;
+}
+
+.bold{
+    font-weight: 700;
+}
+
+.number{
+    margin: 1rem 0;
+    display: flex;
+    flex-wrap: wrap;
+    gap: 0.5rem;
+    width: 50%;
+    cursor: pointer;
+}
+
+.span{
+    border: 1px solid #ccc;
+    padding: 0.5rem;
+}
+
+.price{
+    color: #ff0000;
+}
+
+.img{
+    display: flex;
+    flex-direction: row;
+    gap: 0.2rem;
+}
+
+.img img{
+    width: 2rem;
+    border: 1px solid #ccc;
+}
+
+.link{
+    text-decoration: none;
+    color: #000;
+}
+
+.btn{
+    background-color: #FFAE00;
+    border: none;
+    padding: 0.5rem 4rem;
+    margin: 1rem 0;
+    border-radius: 3px;
+    cursor: pointer;
+}
+
+.btn:hover, .link:hover{
+    color: #fff;
+    background-color: #000;
+    transition: ease-in-out 1s;
+}
+

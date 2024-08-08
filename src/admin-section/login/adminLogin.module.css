@@ -1,0 +1,81 @@
+.section {
+  margin: 2rem auto 0;
+  max-width: 80vw;
+}
+
+.adminContainer {
+  width: 50rem;
+  margin: auto;
+  border: 1px solid #04490c;
+}
+
+.fWidth {
+  width: 27rem;
+  margin: 2rem auto;
+}
+
+.form {
+  display: grid;
+  place-items: center;
+  margin-top: 2rem;
+}
+
+.h1 {
+  text-align: center;
+  font-size: 2.2rem;
+  padding: 2rem 0;
+  background-color: #04490c;
+  color: #fff;
+}
+
+.h2 {
+  text-align: center;
+  padding: 3rem 0 0;
+  font-size: 1.5rem;
+}
+
+.p {
+  padding: 2rem 0;
+  text-align: center;
+  font-size: 1.2rem;
+}
+
+.email input,
+.password input,
+.button {
+  padding: 0.8rem 1rem;
+  width: 28rem;
+  margin: 0.3rem 0;
+  border-radius: 5px;
+  font-size: 1.2rem;
+}
+
+.input {
+  border: 1px solid #04490c;
+  outline: #04490c;
+}
+
+.button {
+  color: #fff;
+  background-color: #04490c;
+  border: none;
+  cursor: pointer;
+}
+
+.button:hover {
+  color: #000;
+  background-color: #fff;
+  border: 1px solid #ccc;
+  transition: ease-in-out 1s;
+}
+
+.link {
+  text-decoration: none;
+  color: #04490c;
+  font-size: 1.2rem;
+}
+
+.link:hover {
+  border-bottom: 1px solid #04490c;
+  transition: ease-in-out 1s;
+}

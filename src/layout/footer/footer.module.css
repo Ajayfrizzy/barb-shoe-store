@@ -1,0 +1,82 @@
+footer{
+    background-color: #D9D9D9;
+}
+
+.dl{
+    display: flex;
+    justify-content: space-between;
+    max-width: 80vw;
+    margin: auto;
+    padding-top: 4rem;
+}
+
+.aLink{
+    text-decoration: none;
+    color: black;
+}
+
+.rs, .ls{
+    flex: 1;
+}
+
+.p{
+    margin-top: 1rem;
+}
+.h3{
+    padding-bottom: 2rem;
+}
+
+.li{
+    list-style-type: none;
+}
+
+big{
+    font-weight: 500;
+}
+
+.address a, .ul li{
+    border-bottom: 1px solid;
+    font-weight: 500;
+}
+
+.ul, .social{
+    display: flex;
+    gap: 1rem;
+    font-size: 1.2rem;
+}
+
+.social{
+    padding: 1rem 0;
+    font-size: 1.5rem;
+}
+
+
+.form input[type="email"]{
+    width: 100%;
+    margin-top: 1rem;
+    padding: 0.8rem 1rem;
+    border: 1px solid #D9D9D9;
+    background-color: black;
+    color: #D9D9D9;
+    outline: none;
+    border-radius: 3px;
+    font-size: 1.2rem;
+}
+
+.btn{
+    width: 10rem;
+    height: 2.5rem;
+    margin-top: 1rem;
+    border-radius: 0.2rem;
+    outline: none;
+    border: none;
+    cursor: pointer;
+    background-color: black;
+    color: #fff;
+    font-size: 1.2rem;
+}
+
+.copyright{
+    padding: 5rem 0 1rem;
+    text-align: center;
+}

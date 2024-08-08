@@ -1,0 +1,67 @@
+.section{
+    margin: 2rem auto 0;
+    max-width: 80vw;
+}
+
+.fWidth{
+    width: 27rem;
+    margin: 2rem auto;
+    box-shadow: 0.5rem 0.8rem 2rem #ccc;
+}
+
+.form{
+    display: grid;
+    place-items: center;
+    margin-top: 2rem;
+}
+
+.h1{
+    text-align: center;
+    padding: 3rem 0 0;
+    font-size: 2.2rem;
+}
+
+.p{
+    padding: 2rem 0;
+    text-align: center;
+    font-size: 1.2rem;
+}
+
+.email input, .password input, .button{
+    padding: 0.8rem 1rem;
+    width: 22rem;
+    margin: 0.3rem 0;
+    border-radius: 5px;
+    font-size: 1.2rem;
+}
+
+.input{
+    border: 1px solid #B0AFAF;
+    outline: #B0AFAF;
+}
+
+.button{
+    color: #fff;
+    background-color: #000;
+    border: none;
+    cursor: pointer;
+}
+
+.button:hover{
+    color: #000;
+    background-color: #fff;
+    border: 1px solid #ccc;
+    transition: ease-in-out 1s;
+}
+
+.link{
+    text-decoration: none;
+    color: #000;
+    font-size: 1.2rem;
+}
+
+.link:hover{
+    border-bottom: 1px solid #000;
+    transition: ease-in-out 1s;
+}
+
